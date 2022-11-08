@@ -27,7 +27,7 @@ async validarUsuario(username: string, password: string): Promise<any> {
     return null;
 }
 async login(usuarioLogin: any) {
-    const payload = {username: usuarioLogin.usuario, sub: "db_blogpessoal1"}
+    const payload = {username: usuarioLogin.usuario, sub: "db_blogpessoal"}
 
     return{
         usuario: usuarioLogin.usuario,
